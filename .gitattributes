@@ -11,7 +11,7 @@ skeletor_ledger/*        export-ignore
 narratives/generated/*   export-ignore
 story_output.md          export-ignore
 reports/*                export-ignore
-SEASON_1_CHRONICLE.md    export-ignore
+# SEASON_1_CHRONICLE.md    export-ignore
 
 # --- Line Endings (Windows/Linux Compat) ---
 * text=auto
