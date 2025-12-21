@@ -1,6 +1,6 @@
 # ❄️ The Council Snowball Fight: The Digital Comic
 
-> *A visual record of the 9999th iteration.*
+> *A visual record of the 999th iteration.*
 
 ### Cover
 ![Cover](assets/cover_art_2.png)
