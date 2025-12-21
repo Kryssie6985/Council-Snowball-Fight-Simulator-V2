@@ -1,0 +1,29 @@
+# --- Keep exports clean (omit Soul + runtime artifacts) ---
+characters/doc/voice_anchors/*.md export-ignore
+characters/doc/mind_cards/*.md    export-ignore
+
+# Keep the stubs/templates
+!characters/doc/voice_anchors/_template.md export-ignore
+!characters/doc/mind_cards/_README.md      export-ignore
+
+# Runtime artifacts (if they ever get committed)
+skeletor_ledger/*        export-ignore
+narratives/generated/*   export-ignore
+story_output.md          export-ignore
+reports/*                export-ignore
+SEASON_1_CHRONICLE.md    export-ignore
+
+# --- Line Endings (Windows/Linux Compat) ---
+* text=auto
+*.py  text eol=lf
+*.md  text eol=lf
+*.json text eol=lf
+*.sh  text eol=lf
+*.ps1 text eol=crlf
+
+# --- Diff Drivers ---
+skeletor_ledger/*.jsonl linguist-generated=true
+narratives/generated/*.md linguist-generated=true
+*.json diff=json
+*.yml  diff=yaml
+*.yaml diff=yaml

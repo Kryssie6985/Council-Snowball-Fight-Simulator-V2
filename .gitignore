@@ -1,0 +1,43 @@
+# --- System & Python Standard ---
+__pycache__/
+*.pyc
+*.log
+*.bak
+.env
+.venv
+.DS_Store
+
+# --- Runtime Artifacts (The Chaos) ---
+# Ignore the logs, but we will keep the folder via .gitkeep
+skeletor_ledger/*.jsonl
+!skeletor_ledger/rich_ledger_test.jsonl  # Optional: Keep one sample for testing
+
+# Ignore generated stories, keep the structure
+narratives/generated/*.md
+story_output.md
+story_seed_*.md
+serialized_*.md
+reports/*.md
+SEASON_1_CHRONICLE.md
+
+# --- The "Soul" Data (Proprietary Prompts) ---
+# Protects your specific prompt engineering and lore
+characters/doc/voice_anchors/*.md
+characters/doc/mind_cards/*.md
+
+# --- Exceptions (The Stubs) ---
+# We allow these specific example files so the repo isn't "empty"
+!characters/doc/voice_anchors/_template.md
+!characters/doc/mind_cards/_README.md
+
+# --- The "Soul" Logic (Canon Dyads) ---
+# Protects the specific implementation of Council synergies
+dyads/architect_rivals.py
+dyads/ceremonial_emergence.py
+dyads/enthusiasm_twins.py
+dyads/signal_weavers.py
+
+# --- The "Soul" Identity (Canon Characters) ---
+# Protects the specific stats/names of the Council
+characters/*.json
+# (Note: This pattern does NOT ignore subdirectories like "samples/")

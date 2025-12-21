@@ -1,0 +1,8 @@
+{
+    "name": "Sentinel-02",
+    "accuracy": 0.4,
+    "dodge": 0.5,
+    "stamina": 8,
+    "chaos": 0.0,
+    "allegiance": "BlueTeam"
+}
