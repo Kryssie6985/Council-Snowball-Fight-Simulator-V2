@@ -2,9 +2,9 @@
 characters/doc/voice_anchors/*.md export-ignore
 characters/doc/mind_cards/*.md    export-ignore
 
-# Keep the stubs/templates
-!characters/doc/voice_anchors/_template.md export-ignore
-!characters/doc/mind_cards/_README.md      export-ignore
+# Keep the stubs/templates (Unset the ignore flag)
+characters/doc/voice_anchors/_template.md -export-ignore
+characters/doc/mind_cards/_README.md      -export-ignore
 
 # Runtime artifacts (if they ever get committed)
 skeletor_ledger/*        export-ignore
