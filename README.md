@@ -8,6 +8,7 @@ An advanced agentic simulation where the "Council" (Generic Representations of A
 This project is not just a game; it is a **Jurisdiction Graph** demonstrating a layered conflict resolution architecture: **Ontology > Canon > Signal > Physics**.
 
 [**📖 Read the Digital Comic**](comic.md)
+[**🎄 Christmas Special (Season 1.5)**](christmas_special_1.md)
 
 ---
 
