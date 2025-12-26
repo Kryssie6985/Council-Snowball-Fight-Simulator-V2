@@ -14,6 +14,7 @@ skeletor_ledger/*.jsonl
 
 # Ignore generated stories, keep the structure
 narratives/generated/*.md
+gemini.md
 story_output.md
 story_seed_*.md
 serialized_*.md
